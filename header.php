@@ -17,11 +17,6 @@
   		<link rel="shortcut icon" href="img/favicon.ico" />
   		<!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
-  		<!-- Plugins -->
-<--  		<link rel="stylesheet" href="css/plugins.css" /> -->
-      <!-- Core Style Css -->
-<--      <link rel="stylesheet" href="style.css" /> -->
-
       <?php wp_head(); ?>
     </head>
 
@@ -74,7 +69,7 @@
     	<!-- =====================================
     	==== Start Header -->
 
-    	<header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="5" data-background="img/bg1.jpg" data-stellar-background-ratio="0.5">
+    	<header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="5" data-background="<?php echo get_template_directory_uri(); ?>/img/bg1.jpg" data-stellar-background-ratio="0.5">
 
             <!-- particles -->
             <div id="particles-js"></div> <!-- stats - count particles --> <div class="count-particles"> <span class="js-count-particles">--</span> </div>

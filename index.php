@@ -52,7 +52,8 @@
                     <div class="col-lg-5">
                       <div class="hero-img mb-md50">
                         <div class="img">
-                          <a class="linkImage" href="https://haruyuma.com" target="_blank"><img src="img/link.jpg" alt=""></a>
+                          <a class="linkImage" href="https://haruyuma.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/link.jpg" alt=""></a>
+
                         </div>
                       </div>
                     </div>
